@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+/* Navbar */
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+.navbar {
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    padding: 0 !important;
+
+}
+.navbar-brand img{
+    height: 150px;
+    padding-left: 20px;
+}
+.navbar-nav li {
+    text-transform: uppercase !important;
+    padding: 0 10px;
+    font-weight: 600 !important;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* Banner Section */
+
+#banner {
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #58585a;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.promo-text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bottom-img{
+    width: 100% !important;
+    color: #fff;
+}
+
+
+/* A-V-C */
+.text-avc{
+    text-align: center;
+}
+
+.text-avc .avc-title{
+    font-weight: 600;
+}
+
+.text-avc .avc-bio{
+    font-size: 20px;
+}
+
+
+.text-center{
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Nos Clients */
+#nos-clients {
+    background: #f3f3f3;
+}
+
+#nos-clients p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* Social Media */
+#social-media{
+    padding: 100px 0;
+}
+
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.4s;
+}
+
+.social-icons a{
+  text-decoration: none;
+  color: #58585a;
+  transition: 0.4s;
+}
+
+.social-icons a:hover{
+  color: #8e9eab;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+/* Services */
+.w80{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+/* Devis */
+#devis {
+    margin-bottom: 4%;
+}
+
+
+/* Footer */
+footer {
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #58585a;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box{
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-box .text-bio {
+    text-align: center;
+    font-size: 17px !important;
+}
+
+.footer-box .fa{
+
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 10px;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer-box .footer-title{
+    margin-top: 10%;
+    text-align: center;
+    font-weight: 600 !important;
+}
+
+.footer-box p {
+    margin-top: 10%;
+}
+
+.footer-box a{
+    transition: 0.4s;
+    color: #58585a;
+    text-decoration: none;
+}
+.footer-box a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    max-width: 250px;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: #58585a;
+}
+
+/* END */
+#end {
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #58585a;
+}
+
+#end a {
+    text-decoration: none;
+    color: #58585a;
+    transition: 0.4s;
+}
+
+#end a:hover{
+    color: #fff;
+}
